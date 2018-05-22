@@ -1,0 +1,39 @@
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: Icomoon !important;
+    line-height: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-img-"],
+[class*=" icon-img-"] {
+    display: inline-block;
+    background: no-repeat 50% 50% / contain;
+    vertical-align: middle;
+}
+
+// Icon fonts (Icomoon.io)
+// Config in ./src/fonts/icomoon
+//---------------------------------
+
+.icon-social-fb {
+    font-size: 24px;
+
+    &::before {
+        content: "\e903";
+    }
+}
+
+.icon-social-tw {
+    font-size: 20px;
+
+    &::before {
+        content: "\e904";
+    }
+}

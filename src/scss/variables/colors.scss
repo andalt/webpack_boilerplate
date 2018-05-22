@@ -1,0 +1,219 @@
+// Extra colors
+//---------------------------------
+
+// Add here extra colors.
+
+// Material Colors (without accent colors)
+//---------------------------------
+
+$color-red--l5:                 #ffebee !default; // 50
+$color-red--l4:                 #ffcdd2 !default; // 100
+$color-red--l3:                 #ef9a9a !default; // 200
+$color-red--l2:                 #e57373 !default; // 300
+$color-red--l1:                 #ef5350 !default; // 400
+$color-red:                     #f44336 !default; // 500
+$color-red--d1:                 #e53935 !default; // 600
+$color-red--d2:                 #d32f2f !default; // 700
+$color-red--d3:                 #c62828 !default; // 800
+$color-red--d4:                 #b71c1c !default; // 900
+
+$color-pink--l5:                #fce4ec !default; // 50
+$color-pink--l4:                #f8bbd0 !default; // 100
+$color-pink--l3:                #f48fb1 !default; // 200
+$color-pink--l2:                #f06292 !default; // 300
+$color-pink--l1:                #ec407a !default; // 400
+$color-pink:                    #e91e63 !default; // 500
+$color-pink--d1:                #d81b60 !default; // 600
+$color-pink--d2:                #c2185b !default; // 700
+$color-pink--d3:                #ad1457 !default; // 800
+$color-pink--d4:                #880e4f !default; // 900
+
+$color-purple--l5:              #f3e5f5 !default; // 50
+$color-purple--l4:              #e1bee7 !default; // 100
+$color-purple--l3:              #ce93d8 !default; // 200
+$color-purple--l2:              #ba68c8 !default; // 300
+$color-purple--l1:              #ab47bc !default; // 400
+$color-purple:                  #9c27b0 !default; // 500
+$color-purple--d1:              #8e24aa !default; // 600
+$color-purple--d2:              #7b1fa2 !default; // 700
+$color-purple--d3:              #6a1b9a !default; // 800
+$color-purple--d4:              #4a148c !default; // 900
+
+$color-deep-purple--l5:         #ede7f6 !default; // 50
+$color-deep-purple--l4:         #d1c4e9 !default; // 100
+$color-deep-purple--l3:         #b39ddb !default; // 200
+$color-deep-purple--l2:         #9575cd !default; // 300
+$color-deep-purple--l1:         #7e57c2 !default; // 400
+$color-deep-purple:             #673ab7 !default; // 500
+$color-deep-purple--d1:         #5e35b1 !default; // 600
+$color-deep-purple--d2:         #512da8 !default; // 700
+$color-deep-purple--d3:         #4527a0 !default; // 800
+$color-deep-purple--d4:         #311b92 !default; // 900
+
+$color-indigo--l5:              #e8eaf6 !default; // 50
+$color-indigo--l4:              #c5cae9 !default; // 100
+$color-indigo--l3:              #9fa8da !default; // 200
+$color-indigo--l2:              #7986cb !default; // 300
+$color-indigo--l1:              #5c6bc0 !default; // 400
+$color-indigo:                  #3f51b5 !default; // 500
+$color-indigo--d1:              #3949ab !default; // 600
+$color-indigo--d2:              #303f9f !default; // 700
+$color-indigo--d3:              #283593 !default; // 800
+$color-indigo--d4:              #1a237e !default; // 900
+
+$color-blue--l5:                #e3f2fd !default; // 50
+$color-blue--l4:                #bbdefb !default; // 100
+$color-blue--l3:                #90caf9 !default; // 200
+$color-blue--l2:                #64b5f6 !default; // 300
+$color-blue--l1:                #42a5f5 !default; // 400
+$color-blue:                    #2196f3 !default; // 500
+$color-blue--d1:                #1e88e5 !default; // 600
+$color-blue--d2:                #1976d2 !default; // 700
+$color-blue--d3:                #1565c0 !default; // 800
+$color-blue--d4:                #0d47a1 !default; // 900
+
+$color-light-blue--l5:          #e1f5fe !default; // 50
+$color-light-blue--l4:          #b3e5fc !default; // 100
+$color-light-blue--l3:          #81d4fa !default; // 200
+$color-light-blue--l2:          #4fc3f7 !default; // 300
+$color-light-blue--l1:          #29b6f6 !default; // 400
+$color-light-blue:              #03a9f4 !default; // 500
+$color-light-blue--d1:          #039be5 !default; // 600
+$color-light-blue--d2:          #0288d1 !default; // 700
+$color-light-blue--d3:          #0277bd !default; // 800
+$color-light-blue--d4:          #01579b !default; // 900
+
+$color-cyan--l5:                #e0f7fa !default; // 50
+$color-cyan--l4:                #b2ebf2 !default; // 100
+$color-cyan--l3:                #80deea !default; // 200
+$color-cyan--l2:                #4dd0e1 !default; // 300
+$color-cyan--l1:                #26c6da !default; // 400
+$color-cyan:                    #00bcd4 !default; // 500
+$color-cyan--d1:                #00acc1 !default; // 600
+$color-cyan--d2:                #0097a7 !default; // 700
+$color-cyan--d3:                #00838f !default; // 800
+$color-cyan--d4:                #006064 !default; // 900
+
+$color-teal--l5:                #e0f2f1 !default; // 50
+$color-teal--l4:                #b2dfdb !default; // 100
+$color-teal--l3:                #80cbc4 !default; // 200
+$color-teal--l2:                #4db6ac !default; // 300
+$color-teal--l1:                #26a69a !default; // 400
+$color-teal:                    #009688 !default; // 500
+$color-teal--d1:                #00897b !default; // 600
+$color-teal--d2:                #00796b !default; // 700
+$color-teal--d3:                #00695c !default; // 800
+$color-teal--d4:                #004d40 !default; // 900
+
+$color-green--l5:               #e8f5e9 !default; // 50
+$color-green--l4:               #c8e6c9 !default; // 100
+$color-green--l3:               #a5d6a7 !default; // 200
+$color-green--l2:               #81c784 !default; // 300
+$color-green--l1:               #66bb6a !default; // 400
+$color-green:                   #4caf50 !default; // 500
+$color-green--d1:               #43a047 !default; // 600
+$color-green--d2:               #388e3c !default; // 700
+$color-green--d3:               #2e7d32 !default; // 800
+$color-green--d4:               #1b5e20 !default; // 900
+
+$color-ligth-green--l5:         #f1f8e9 !default; // 50
+$color-ligth-green--l4:         #dcedc8 !default; // 100
+$color-ligth-green--l3:         #c5e1a5 !default; // 200
+$color-ligth-green--l2:         #aed581 !default; // 300
+$color-ligth-green--l1:         #9ccc65 !default; // 400
+$color-ligth-green:             #8bc34a !default; // 500
+$color-ligth-green--d1:         #7cb342 !default; // 600
+$color-ligth-green--d2:         #689f38 !default; // 700
+$color-ligth-green--d3:         #558b2f !default; // 800
+$color-ligth-green--d4:         #33691e !default; // 900
+
+$color-lime--l5:                #f9fbe7 !default; // 50
+$color-lime--l4:                #f0f4c3 !default; // 100
+$color-lime--l3:                #e6ee9c !default; // 200
+$color-lime--l2:                #dce775 !default; // 300
+$color-lime--l1:                #d4e157 !default; // 400
+$color-lime:                    #cddc39 !default; // 500
+$color-lime--d1:                #c0ca33 !default; // 600
+$color-lime--d2:                #afb42b !default; // 700
+$color-lime--d3:                #9e9d24 !default; // 800
+$color-lime--d4:                #827717 !default; // 900
+
+$color-yellow--l5:              #fffde7 !default; // 50
+$color-yellow--l4:              #fff9c4 !default; // 100
+$color-yellow--l3:              #fff59d !default; // 200
+$color-yellow--l2:              #fff176 !default; // 300
+$color-yellow--l1:              #ffee58 !default; // 400
+$color-yellow:                  #ffeb3b !default; // 500
+$color-yellow--d1:              #fdd835 !default; // 600
+$color-yellow--d2:              #fbc02d !default; // 700
+$color-yellow--d3:              #f9a825 !default; // 800
+$color-yellow--d4:              #f57f17 !default; // 900
+
+$color-amber--l5:               #fff8e1 !default; // 50
+$color-amber--l4:               #ffecb3 !default; // 100
+$color-amber--l3:               #ffe082 !default; // 200
+$color-amber--l2:               #ffd54f !default; // 300
+$color-amber--l1:               #ffca28 !default; // 400
+$color-amber:                   #ffc107 !default; // 500
+$color-amber--d1:               #ffb300 !default; // 600
+$color-amber--d2:               #ffa000 !default; // 700
+$color-amber--d3:               #ff8f00 !default; // 800
+$color-amber--d4:               #ff6f00 !default; // 900
+
+$color-orange--l5:              #fff3e0 !default; // 50
+$color-orange--l4:              #ffe0b2 !default; // 100
+$color-orange--l3:              #ffcc80 !default; // 200
+$color-orange--l2:              #ffb74d !default; // 300
+$color-orange--l1:              #ffa726 !default; // 400
+$color-orange:                  #ff9800 !default; // 500
+$color-orange--d1:              #fb8c00 !default; // 600
+$color-orange--d2:              #f57c00 !default; // 700
+$color-orange--d3:              #ef6c00 !default; // 800
+$color-orange--d4:              #e65100 !default; // 900
+
+$color-deep-orange--l5:         #fbe9e7 !default; // 50
+$color-deep-orange--l4:         #ffccbc !default; // 100
+$color-deep-orange--l3:         #ffab91 !default; // 200
+$color-deep-orange--l2:         #ff8a65 !default; // 300
+$color-deep-orange--l1:         #ff7043 !default; // 400
+$color-deep-orange:             #ff5722 !default; // 500
+$color-deep-orange--d1:         #f4511e !default; // 600
+$color-deep-orange--d2:         #e64a19 !default; // 700
+$color-deep-orange--d3:         #d84315 !default; // 800
+$color-deep-orange--d4:         #bf360c !default; // 900
+
+$color-brown--l5:               #efebe9 !default; // 50
+$color-brown--l4:               #d7ccc8 !default; // 100
+$color-brown--l3:               #bcaaa4 !default; // 200
+$color-brown--l2:               #a1887f !default; // 300
+$color-brown--l1:               #8d6e63 !default; // 400
+$color-brown:                   #795548 !default; // 500
+$color-brown--d1:               #6d4c41 !default; // 600
+$color-brown--d2:               #5d4037 !default; // 700
+$color-brown--d3:               #4e342e !default; // 800
+$color-brown--d4:               #3e2723 !default; // 900
+
+$color-blue-grey--l5:           #eceff1 !default; // 50
+$color-blue-grey--l4:           #cfd8dc !default; // 100
+$color-blue-grey--l3:           #b0bec5 !default; // 200
+$color-blue-grey--l2:           #90a4ae !default; // 300
+$color-blue-grey--l1:           #78909c !default; // 400
+$color-blue-grey:               #607d8b !default; // 500
+$color-blue-grey--d1:           #546e7a !default; // 600
+$color-blue-grey--d2:           #455a64 !default; // 700
+$color-blue-grey--d3:           #37474f !default; // 800
+$color-blue-grey--d4:           #263238 !default; // 900
+
+$color-grey--l5:                #fafafa !default; // 50
+$color-grey--l4:                #f5f5f5 !default; // 100
+$color-grey--l3:                #eee !default; // 200
+$color-grey--l2:                #e0e0e0 !default; // 300
+$color-grey--l1:                #bdbdbd !default; // 400
+$color-grey:                    #9e9e9e !default; // 500
+$color-grey--d1:                #757575 !default; // 600
+$color-grey--d2:                #616161 !default; // 700
+$color-grey--d3:                #424242 !default; // 800
+$color-grey--d4:                #212121 !default; // 900
+
+$color-black:                   #000 !default;
+$color-white:                   #fff !default;

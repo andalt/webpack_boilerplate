@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-size: $font-size--m;
+}
+
+body {
+    background: $bg-main;
+    font-family: $font-family--base;
+    font-size: $font-size--m;
+    line-height: $line-height--m;
+    color: $font-color;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+

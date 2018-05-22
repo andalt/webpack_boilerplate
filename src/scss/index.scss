@@ -1,0 +1,33 @@
+//---------------------------------
+// Base
+//---------------------------------
+
+// Variables, mixins, extends, reset etc.
+
+@import "variables/colors";
+@import "variables/base";
+// @import "mixins/*.scss";
+@import "mixins/clearfix";
+@import "mixins/fonts";
+@import "mixins/sprites";
+// @import "../../tmp/sprites/*.scss";
+@import "vendor/normalize";
+
+//---------------------------------
+// Shared.
+//---------------------------------
+
+// Fonts, grid, icons, buttons, form elements etc.
+
+// @import "shared/fonts";
+@import "shared/reboot";
+@import "shared/typography";
+@import "shared/icons";
+
+//---------------------------------
+// Components.
+//---------------------------------
+
+// Header, footer, navigation, news etc.
+
+@import "components/header.scss"; // Import components

@@ -1,0 +1,55 @@
+{
+  "name": "Webpack_Native",
+  "version": "1.0.0",
+  "description": "Webpack_Native",
+  "main": "webpack.config",
+  "dependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "es6-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.1",
+    "eslint-config-smarthead": "^1.6.3",
+    "eslint-plugin-import": "^2.9.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.7.2",
+    "npm": "^5.7.1",
+    "postcss-loader": "^2.1.1",
+    "pug-html-loader": "^1.1.5",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "stylelint": "^9.1.3",
+    "stylelint-config-smarthead": "^0.1.1",
+    "stylelint-scss": "^2.5.0",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "webpack --mode production --config webpack.config.prod.babel.js",
+    "build:stage": "webpack --mode production --config webpack.config.prod.babel.js",
+    "build": "webpack --mode development --config webpack.config.prod.babel.js",
+    "start": "webpack-dev-server --color --mode development --config webpack.config.dev.babel.js",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint --color --quiet --fix ./src/**/*.{js,jsx}",
+    "lint:css": "stylelint ./src/**/*.{scss,css} !./src/scss/vendor/*.{scss,css}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.smarthead.ru/and/webpack_native.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "_And_M_",
+  "license": "ISC"
+}

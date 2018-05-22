@@ -1,0 +1,62 @@
+// Color types
+//---------------------------------
+
+$color-default:                 $color-grey !default;
+$color-primary:                 $color-purple !default;
+$color-success:                 $color-green !default;
+$color-info:                    $color-blue !default;
+$color-important:               $color-yellow !default;
+$color-warning:                 $color-orange !default;
+$color-danger:                  $color-red !default;
+$color-disabled:                $color-grey !default;
+
+// Spacer
+//---------------------------------
+
+$spacer:                        10px !default;
+$spacer--x2:                    $spacer * 2 !default;
+
+// Screen
+//---------------------------------
+
+$screen-w--xxs:                 320px !default;
+$screen-w--xs:                  480px !default;
+$screen-w--s:                   768px !default;
+$screen-w--m:                   960px !default;
+$screen-w--l:                   1200px !default;
+$screen-w--xl:                  1400px !default;
+$screen-w--xxl:                 1600px !default;
+
+// Typography
+//---------------------------------
+
+$font-family--sansSerif:        Arial, sans-serif !default;
+$font-family--serif:            Georgia, "Times New Roman", Times, serif !default;
+$font-family--monospace:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$font-family--base:             $font-family--sansSerif !default;
+$font-family--alt:              $font-family--serif !default;
+
+$font-size--s:                  12px !default;
+$font-size--m:                  16px !default;
+$font-size--l:                  20px !default;
+
+$line-height--s:                1 !default;
+$line-height--m:                1.35 !default;
+$line-height--l:                1.4 !default;
+
+$font-color:                    $color-grey !default;
+$link-color:                    $color-blue !default;
+$heading-color:                 $color-black !default;
+
+// Background
+//---------------------------------
+
+$bg-main:                       $color-white !default;
+
+// Z-index
+//---------------------------------
+
+$zindex-overlay:                5000 !default;
+$zindex-modal:                  7000 !default;
+

@@ -1,0 +1,14 @@
+{
+  "name": "Webpack Native",
+  "short_name": "FPB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A simply readable Hacker News app.",
+  "orientation": "any",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}

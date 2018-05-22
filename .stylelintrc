@@ -1,0 +1,9 @@
+{
+    "extends": "stylelint-config-smarthead",
+    "plugins": [
+        "stylelint-scss"
+    ],
+    "rules": {
+        "indentation": 4
+    }
+}
