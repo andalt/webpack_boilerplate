@@ -1,12 +1,12 @@
 # Webpack сборка
 
-Сборка, основанная на Webpack
+Сборка, основанная на Webpack.
 
 # Команды
 
 ### DevServer
 
-Запускает девсервер, локальная папка build не существует
+Запускает девсервер, локальная папка build не существует.
 ```sh
 npm start
 ```
@@ -17,11 +17,11 @@ npm start
 npm run build
 ```
 
-Перед сборкой очищает папку build. Собирает без минификаций.
+Сборка папки build. --mode=development.
 
 ### Production build
 
-Перед сборкой очищает папку build. Собирает с минификацией.
+Сборка папки build. --mode=production.
 
 ```sh
 npm run build:prod
