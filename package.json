@@ -4,7 +4,6 @@
   "description": "Webpack_Native",
   "main": "webpack.config",
   "dependencies": {
-    "copy-webpack-plugin": "^4.5.1",
     "es6-promise": "^4.2.4"
   },
   "devDependencies": {
@@ -14,6 +13,7 @@
     "babel-loader": "^7.1.3",
     "babel-preset-env": "^1.6.1",
     "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.10",
     "eslint": "^4.18.1",
     "eslint-config-smarthead": "^1.6.3",

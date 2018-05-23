@@ -1,6 +1,7 @@
 import webpack from 'webpack';
 import path from 'path';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const config = {
     context: path.resolve(__dirname, 'src'),
@@ -49,7 +50,12 @@ const config = {
 
         new webpack.ProvidePlugin({
             Promise: 'es6-promise'
-        })
+        }),
+
+        new CopyWebpackPlugin([{
+            from: 'public',
+            to: path.resolve(__dirname, './build')
+        }])
     ]
 };
 
