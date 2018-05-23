@@ -1,5 +1,6 @@
 import webpack from 'webpack';
 import path from 'path';
+import CleanWebpackPlugin from 'clean-webpack-plugin';
 
 const config = {
     context: path.resolve(__dirname, 'src'),
@@ -44,6 +45,8 @@ const config = {
     },
 
     plugins: [
+        new CleanWebpackPlugin(path.resolve(__dirname, './build')),
+
         new webpack.ProvidePlugin({
             Promise: 'es6-promise'
         })
