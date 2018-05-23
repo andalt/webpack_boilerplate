@@ -22,7 +22,12 @@ const config = {
                     publicPath: '../',
                     fallback: 'style-loader',
                     use: [
-                        'css-loader',
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                minimize: true
+                            }
+                        },
                         {
                             loader: 'postcss-loader',
                             options: {
