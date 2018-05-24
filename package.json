@@ -1,8 +1,8 @@
 {
-  "name": "Webpack_Native",
+  "name": "Webpack_Boilerplate",
   "version": "1.0.0",
-  "description": "Webpack_Native",
-  "main": "webpack.config",
+  "description": "Webpack_Boilerplate",
+  "main": "/",
   "dependencies": {
     "es6-promise": "^4.2.4"
   },
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.smarthead.ru/and/webpack_native.git"
+    "url": "https://github.com/andalt/webpack_boilerplate.git"
   },
   "keywords": [
     "webpack"

@@ -1,30 +1,47 @@
-# Webpack сборка
+# Webpack boilerplate
 
-Шаблон сборки на Webpack.
+Build template on webpack
 
-# Команды
+# Main tools
 
-### DevServer
+Webpack, Babel, Scss, Pug, DevServer, autoPreFixer
 
-Запускает девсервер, локальная папка build не существует.
-```sh
-npm start
+## Installation
+
+```
+$ npm install
+```
+
+## Usage
+
+### Run
+
+```
+$ npm start
 ```
 
 ### Build
 
-```sh
-npm run build
+Run build in the dev environment.
+```
+$ npm run build
 ```
 
-Сборка папки build. --mode=development.
+Run build in the stage environment.
+```
+$ npm run build:stage
+```
 
-### Production build
+Run build in the prod environment.
+```
+$ npm run build:prod
+```
 
-Сборка папки build. --mode=production.
+## Testing
 
-```sh
-npm run build:prod
+### Lint
+```
+$ npm run lint
 ```
 
 ## Support
